@@ -24,7 +24,7 @@ disable-model-invocation: true
 
 1. 确认临时目录 `.scratch/需求工程/<需求名称>/` 已经存在，且其中已有需求 UUID。没有需求名称时停止。停止后，`align-session-utterance` 不改用它的默认父目录。
 2. 按上面三项写明。对齐名称仍由 `align-session-utterance` 从原话取出。这一轮的提示词若另写明了父目录、开头额外行或额外阅读，提示词写明的那一项优先。
-3. 读取 `.cursor/skills/align-session-utterance/SKILL.md` 并按它的步骤执行。会话 UUID 和对齐 UUID 只由那份技能生成。本技能不运行 `scripts/new-uuid.ps1`，也不把复述、询问或术语确认再做一遍。
+3. 读取 `开发skill仓/align-session-utterance/SKILL.md` 并按它的步骤执行。会话 UUID 和对齐 UUID 只由那份技能生成。本技能不运行 `scripts/new-uuid.ps1`，也不把复述、询问或术语确认再做一遍。
 
 下面这些在执行那份技能时仍然有效。不开始初始调研，不划边界，不建票。不查竞品怎样做，也不查没有这类产品时工作怎样开展。不问第一版做到哪一档，不问界面如何放置，不问实现。不把未确认的重述或未确认的询问写入地图。
 

@@ -1,0 +1,10 @@
+{
+  "name": "catalog-methods",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@vue/compiler-dom": "^3.5.22",
+    "@vue/compiler-sfc": "^3.5.22",
+    "typescript": "^5.9.3"
+  }
+}
